@@ -1,0 +1,513 @@
+college_code,college_name,course_code,course_name,category,rank,percentage,status,university,seat_type
+1002,"Government College of Engineering, Amravati",100219110,Civil Engineering,GOPENS,2531,99.24,Government Autonomous,,Other University
+1002,"Government College of Engineering, Amravati",100219110,Civil Engineering,GOBCS,22722,93.18,Government Autonomous,,Home University
+1002,"Government College of Engineering, Amravati",100219110,Civil Engineering,GNT1S,68765,79.37,Government,,State Level
+1002,"Government College of Engineering, Amravati",100219110,Civil Engineering,LOPENH,35597,89.32,Government,,State Level
+1002,"Government College of Engineering, Amravati",100219110,Civil Engineering,DEFOPENS,10604,96.82,Government,,State Level
+1002,"Government College of Engineering, Amravati",100219110,Civil Engineering,TFWS,16248,95.13,Government Aided,,State Level
+1002,"Government College of Engineering, Amravati",100219110,Civil Engineering,PWDOPENS,16644,95.01,Government,,Other University
+1002,"Government College of Engineering, Amravati",100219110,Civil Engineering,ORPHAN,25528,92.34,Government Aided,,State Level
+1002,"Government College of Engineering, Amravati",421019210,Computer Science and Engineering,GOPENS,5347,98.4,Government,,State Level
+1002,"Government College of Engineering, Amravati",421019210,Computer Science and Engineering,GOBCS,35861,89.24,Government,,Other University
+1002,"Government College of Engineering, Amravati",421019210,Computer Science and Engineering,GNT1S,5985,98.2,Government Aided,,Home University
+1002,"Government College of Engineering, Amravati",421019210,Computer Science and Engineering,LOPENH,53173,84.05,Government Autonomous,,Other University
+1002,"Government College of Engineering, Amravati",421019210,Computer Science and Engineering,DEFOPENS,14623,95.61,Government Aided,,Home University
+1002,"Government College of Engineering, Amravati",421019210,Computer Science and Engineering,TFWS,22856,93.14,Government,,Home University
+1002,"Government College of Engineering, Amravati",421019210,Computer Science and Engineering,PWDOPENS,45275,86.42,Government Aided,,Home University
+1002,"Government College of Engineering, Amravati",421019210,Computer Science and Engineering,ORPHAN,20971,93.71,Government Autonomous,,Other University
+1002,"Government College of Engineering, Amravati",461019610,Information Technology,GOPENS,21425,93.57,Government Aided,,State Level
+1002,"Government College of Engineering, Amravati",461019610,Information Technology,GOBCS,15006,95.5,Government,,State Level
+1002,"Government College of Engineering, Amravati",461019610,Information Technology,GNT1S,28808,91.36,Government,,Home University
+1002,"Government College of Engineering, Amravati",461019610,Information Technology,LOPENH,13251,96.02,Government Autonomous,,Other University
+1002,"Government College of Engineering, Amravati",461019610,Information Technology,DEFOPENS,48172,85.55,Government Aided,,Home University
+1002,"Government College of Engineering, Amravati",461019610,Information Technology,TFWS,4824,98.55,Government Autonomous,,Other University
+1002,"Government College of Engineering, Amravati",461019610,Information Technology,PWDOPENS,16719,94.98,Government Aided,,Home University
+1002,"Government College of Engineering, Amravati",461019610,Information Technology,ORPHAN,34427,89.67,Government,,Other University
+1002,"Government College of Engineering, Amravati",931019310,Electrical Engineering,GOPENS,27292,91.81,Government,,Other University
+1002,"Government College of Engineering, Amravati",931019310,Electrical Engineering,GOBCS,33222,90.03,Government Autonomous,,Home University
+1002,"Government College of Engineering, Amravati",931019310,Electrical Engineering,GNT1S,29847,91.05,Government Aided,,Home University
+1002,"Government College of Engineering, Amravati",931019310,Electrical Engineering,LOPENH,24018,92.79,Government Autonomous,,Other University
+1002,"Government College of Engineering, Amravati",931019310,Electrical Engineering,DEFOPENS,13404,95.98,Government Autonomous,,Home University
+1002,"Government College of Engineering, Amravati",931019310,Electrical Engineering,TFWS,9122,97.26,Government,,Other University
+1002,"Government College of Engineering, Amravati",931019310,Electrical Engineering,PWDOPENS,4316,98.71,Government Aided,,Other University
+1002,"Government College of Engineering, Amravati",931019310,Electrical Engineering,ORPHAN,56966,82.91,Government Autonomous,,Other University
+1002,"Government College of Engineering, Amravati",721017210,Electronics and Telecommunication Engg,GOPENS,28444,91.47,Government,,Home University
+1002,"Government College of Engineering, Amravati",721017210,Electronics and Telecommunication Engg,GOBCS,14241,95.73,Government Aided,,Other University
+1002,"Government College of Engineering, Amravati",721017210,Electronics and Telecommunication Engg,GNT1S,21723,93.48,Government,,Other University
+1002,"Government College of Engineering, Amravati",721017210,Electronics and Telecommunication Engg,LOPENH,67893,79.63,Government Autonomous,,State Level
+1002,"Government College of Engineering, Amravati",721017210,Electronics and Telecommunication Engg,DEFOPENS,48237,85.53,Government,,Home University
+1002,"Government College of Engineering, Amravati",721017210,Electronics and Telecommunication Engg,TFWS,43780,86.87,Government,,Other University
+1002,"Government College of Engineering, Amravati",721017210,Electronics and Telecommunication Engg,PWDOPENS,35185,89.44,Government Autonomous,,Other University
+1002,"Government College of Engineering, Amravati",721017210,Electronics and Telecommunication Engg,ORPHAN,7526,97.74,Government Aided,,Home University
+1002,"Government College of Engineering, Amravati",121011210,Mechanical Engineering,GOPENS,44917,86.52,Government,,Other University
+1002,"Government College of Engineering, Amravati",121011210,Mechanical Engineering,GOBCS,57259,82.82,Government,,Home University
+1002,"Government College of Engineering, Amravati",121011210,Mechanical Engineering,GNT1S,74208,77.74,Government Autonomous,,State Level
+1002,"Government College of Engineering, Amravati",121011210,Mechanical Engineering,LOPENH,64417,80.67,Government Autonomous,,Home University
+1002,"Government College of Engineering, Amravati",121011210,Mechanical Engineering,DEFOPENS,78302,76.51,Government Autonomous,,Other University
+1002,"Government College of Engineering, Amravati",121011210,Mechanical Engineering,TFWS,37256,88.82,Government Aided,,Other University
+1002,"Government College of Engineering, Amravati",121011210,Mechanical Engineering,PWDOPENS,40396,87.88,Government Aided,,Other University
+1002,"Government College of Engineering, Amravati",121011210,Mechanical Engineering,ORPHAN,39276,88.22,Government,,State Level
+1002,"Government College of Engineering, Amravati",951019510,Artificial Intelligence and Data Science,GOPENS,5374,98.39,Government,,Other University
+1002,"Government College of Engineering, Amravati",951019510,Artificial Intelligence and Data Science,GOBCS,54948,83.52,Government Aided,,Other University
+1002,"Government College of Engineering, Amravati",951019510,Artificial Intelligence and Data Science,GNT1S,17515,94.75,Government,,Other University
+1002,"Government College of Engineering, Amravati",951019510,Artificial Intelligence and Data Science,LOPENH,39279,88.22,Government,,Home University
+1002,"Government College of Engineering, Amravati",951019510,Artificial Intelligence and Data Science,DEFOPENS,7666,97.7,Government Autonomous,,Home University
+1002,"Government College of Engineering, Amravati",951019510,Artificial Intelligence and Data Science,TFWS,41392,87.58,Government Aided,,State Level
+1002,"Government College of Engineering, Amravati",951019510,Artificial Intelligence and Data Science,PWDOPENS,33104,90.07,Government,,State Level
+1002,"Government College of Engineering, Amravati",951019510,Artificial Intelligence and Data Science,ORPHAN,37171,88.85,Government Autonomous,,Other University
+1002,"Government College of Engineering, Amravati",071010710,Chemical Engineering,GOPENS,40762,87.77,Government Aided,,State Level
+1002,"Government College of Engineering, Amravati",071010710,Chemical Engineering,GOBCS,33031,90.09,Government Autonomous,,Home University
+1002,"Government College of Engineering, Amravati",071010710,Chemical Engineering,GNT1S,46646,86.01,Government,,Other University
+1002,"Government College of Engineering, Amravati",071010710,Chemical Engineering,LOPENH,26043,92.19,Government Autonomous,,Home University
+1002,"Government College of Engineering, Amravati",071010710,Chemical Engineering,DEFOPENS,49779,85.07,Government,,Home University
+1002,"Government College of Engineering, Amravati",071010710,Chemical Engineering,TFWS,12193,96.34,Government,,State Level
+1002,"Government College of Engineering, Amravati",071010710,Chemical Engineering,PWDOPENS,10374,96.89,Government Aided,,Home University
+1002,"Government College of Engineering, Amravati",071010710,Chemical Engineering,ORPHAN,27988,91.6,Government Aided,,Other University
+1012,"Government College of Engineering, Yavatmal",100219110,Civil Engineering,GOPENS,22822,93.15,Government,,State Level
+1012,"Government College of Engineering, Yavatmal",100219110,Civil Engineering,GOBCS,39197,88.24,Government Aided,,Other University
+1012,"Government College of Engineering, Yavatmal",100219110,Civil Engineering,GNT1S,6083,98.18,Government,,Other University
+1012,"Government College of Engineering, Yavatmal",100219110,Civil Engineering,LOPENH,34792,89.56,Government Aided,,Other University
+1012,"Government College of Engineering, Yavatmal",100219110,Civil Engineering,DEFOPENS,52432,84.27,Government Aided,,Home University
+1012,"Government College of Engineering, Yavatmal",100219110,Civil Engineering,TFWS,16632,95.01,Government Aided,,State Level
+1012,"Government College of Engineering, Yavatmal",100219110,Civil Engineering,PWDOPENS,21188,93.64,Government Aided,,Home University
+1012,"Government College of Engineering, Yavatmal",100219110,Civil Engineering,ORPHAN,64776,80.57,Government Autonomous,,Home University
+1012,"Government College of Engineering, Yavatmal",421019210,Computer Science and Engineering,GOPENS,13593,95.92,Government,,Home University
+1012,"Government College of Engineering, Yavatmal",421019210,Computer Science and Engineering,GOBCS,42516,87.25,Government Autonomous,,Home University
+1012,"Government College of Engineering, Yavatmal",421019210,Computer Science and Engineering,GNT1S,37307,88.81,Government Autonomous,,Other University
+1012,"Government College of Engineering, Yavatmal",421019210,Computer Science and Engineering,LOPENH,18809,94.36,Government,,Other University
+1012,"Government College of Engineering, Yavatmal",421019210,Computer Science and Engineering,DEFOPENS,45516,86.35,Government Aided,,Other University
+1012,"Government College of Engineering, Yavatmal",421019210,Computer Science and Engineering,TFWS,21059,93.68,Government Autonomous,,State Level
+1012,"Government College of Engineering, Yavatmal",421019210,Computer Science and Engineering,PWDOPENS,15766,95.27,Government,,State Level
+1012,"Government College of Engineering, Yavatmal",421019210,Computer Science and Engineering,ORPHAN,27477,91.76,Government,,Other University
+1012,"Government College of Engineering, Yavatmal",461019610,Information Technology,GOPENS,27393,91.78,Government Autonomous,,Other University
+1012,"Government College of Engineering, Yavatmal",461019610,Information Technology,GOBCS,11248,96.63,Government,,Home University
+1012,"Government College of Engineering, Yavatmal",461019610,Information Technology,GNT1S,4372,98.69,Government Aided,,State Level
+1012,"Government College of Engineering, Yavatmal",461019610,Information Technology,LOPENH,22125,93.36,Government Aided,,State Level
+1012,"Government College of Engineering, Yavatmal",461019610,Information Technology,DEFOPENS,49406,85.18,Government,,Home University
+1012,"Government College of Engineering, Yavatmal",461019610,Information Technology,TFWS,13975,95.81,Government,,Other University
+1012,"Government College of Engineering, Yavatmal",461019610,Information Technology,PWDOPENS,19695,94.09,Government Autonomous,,State Level
+1012,"Government College of Engineering, Yavatmal",461019610,Information Technology,ORPHAN,45528,86.34,Government,,Other University
+1012,"Government College of Engineering, Yavatmal",931019310,Electrical Engineering,GOPENS,25912,92.23,Government,,State Level
+1012,"Government College of Engineering, Yavatmal",931019310,Electrical Engineering,GOBCS,53679,83.9,Government Autonomous,,State Level
+1012,"Government College of Engineering, Yavatmal",931019310,Electrical Engineering,GNT1S,32307,90.31,Government Aided,,Other University
+1012,"Government College of Engineering, Yavatmal",931019310,Electrical Engineering,LOPENH,8472,97.46,Government Autonomous,,State Level
+1012,"Government College of Engineering, Yavatmal",931019310,Electrical Engineering,DEFOPENS,11923,96.42,Government,,Other University
+1012,"Government College of Engineering, Yavatmal",931019310,Electrical Engineering,TFWS,28657,91.4,Government Aided,,State Level
+1012,"Government College of Engineering, Yavatmal",931019310,Electrical Engineering,PWDOPENS,40702,87.79,Government,,Home University
+1012,"Government College of Engineering, Yavatmal",931019310,Electrical Engineering,ORPHAN,48100,85.57,Government Aided,,Home University
+1012,"Government College of Engineering, Yavatmal",721017210,Electronics and Telecommunication Engg,GOPENS,14745,95.58,Government Autonomous,,State Level
+1012,"Government College of Engineering, Yavatmal",721017210,Electronics and Telecommunication Engg,GOBCS,15216,95.44,Government Autonomous,,Other University
+1012,"Government College of Engineering, Yavatmal",721017210,Electronics and Telecommunication Engg,GNT1S,30334,90.9,Government Aided,,State Level
+1012,"Government College of Engineering, Yavatmal",721017210,Electronics and Telecommunication Engg,LOPENH,3536,98.94,Government,,State Level
+1012,"Government College of Engineering, Yavatmal",721017210,Electronics and Telecommunication Engg,DEFOPENS,52899,84.13,Government Aided,,State Level
+1012,"Government College of Engineering, Yavatmal",721017210,Electronics and Telecommunication Engg,TFWS,14296,95.71,Government Aided,,Other University
+1012,"Government College of Engineering, Yavatmal",721017210,Electronics and Telecommunication Engg,PWDOPENS,59512,82.15,Government Aided,,State Level
+1012,"Government College of Engineering, Yavatmal",721017210,Electronics and Telecommunication Engg,ORPHAN,14969,95.51,Government Autonomous,,State Level
+1012,"Government College of Engineering, Yavatmal",121011210,Mechanical Engineering,GOPENS,37033,88.89,Government Autonomous,,Other University
+1012,"Government College of Engineering, Yavatmal",121011210,Mechanical Engineering,GOBCS,28569,91.43,Government,,Home University
+1012,"Government College of Engineering, Yavatmal",121011210,Mechanical Engineering,GNT1S,22296,93.31,Government,,Other University
+1012,"Government College of Engineering, Yavatmal",121011210,Mechanical Engineering,LOPENH,55654,83.3,Government,,State Level
+1012,"Government College of Engineering, Yavatmal",121011210,Mechanical Engineering,DEFOPENS,19551,94.13,Government Aided,,Home University
+1012,"Government College of Engineering, Yavatmal",121011210,Mechanical Engineering,TFWS,4714,98.59,Government Autonomous,,State Level
+1012,"Government College of Engineering, Yavatmal",121011210,Mechanical Engineering,PWDOPENS,32136,90.36,Government Autonomous,,Home University
+1012,"Government College of Engineering, Yavatmal",121011210,Mechanical Engineering,ORPHAN,18900,94.33,Government,,Other University
+1012,"Government College of Engineering, Yavatmal",951019510,Artificial Intelligence and Data Science,GOPENS,19837,94.05,Government,,Other University
+1012,"Government College of Engineering, Yavatmal",951019510,Artificial Intelligence and Data Science,GOBCS,19382,94.19,Government Autonomous,,Other University
+1012,"Government College of Engineering, Yavatmal",951019510,Artificial Intelligence and Data Science,GNT1S,36828,88.95,Government Autonomous,,Home University
+1012,"Government College of Engineering, Yavatmal",951019510,Artificial Intelligence and Data Science,LOPENH,13042,96.09,Government Aided,,Home University
+1012,"Government College of Engineering, Yavatmal",951019510,Artificial Intelligence and Data Science,DEFOPENS,69707,79.09,Government Aided,,State Level
+1012,"Government College of Engineering, Yavatmal",951019510,Artificial Intelligence and Data Science,TFWS,3315,99.01,Government Aided,,State Level
+1012,"Government College of Engineering, Yavatmal",951019510,Artificial Intelligence and Data Science,PWDOPENS,33292,90.01,Government Aided,,State Level
+1012,"Government College of Engineering, Yavatmal",951019510,Artificial Intelligence and Data Science,ORPHAN,57304,82.81,Government Autonomous,,Home University
+1012,"Government College of Engineering, Yavatmal",071010710,Chemical Engineering,GOPENS,30101,90.97,Government,,Other University
+1012,"Government College of Engineering, Yavatmal",071010710,Chemical Engineering,GOBCS,14255,95.72,Government Aided,,Home University
+1012,"Government College of Engineering, Yavatmal",071010710,Chemical Engineering,GNT1S,8167,97.55,Government Aided,,Home University
+1012,"Government College of Engineering, Yavatmal",071010710,Chemical Engineering,LOPENH,17893,94.63,Government Aided,,State Level
+1012,"Government College of Engineering, Yavatmal",071010710,Chemical Engineering,DEFOPENS,20187,93.94,Government Aided,,Home University
+1012,"Government College of Engineering, Yavatmal",071010710,Chemical Engineering,TFWS,29020,91.29,Government Autonomous,,State Level
+1012,"Government College of Engineering, Yavatmal",071010710,Chemical Engineering,PWDOPENS,31794,90.46,Government,,Other University
+1012,"Government College of Engineering, Yavatmal",071010710,Chemical Engineering,ORPHAN,75626,77.31,Government,,Home University
+2008,"Government College of Engineering, Aurangabad",100219110,Civil Engineering,GOPENS,43934,86.82,Government,,Home University
+2008,"Government College of Engineering, Aurangabad",100219110,Civil Engineering,GOBCS,18910,94.33,Government Autonomous,,Home University
+2008,"Government College of Engineering, Aurangabad",100219110,Civil Engineering,GNT1S,27945,91.62,Government Autonomous,,Other University
+2008,"Government College of Engineering, Aurangabad",100219110,Civil Engineering,LOPENH,21582,93.53,Government Autonomous,,State Level
+2008,"Government College of Engineering, Aurangabad",100219110,Civil Engineering,DEFOPENS,46796,85.96,Government Aided,,Other University
+2008,"Government College of Engineering, Aurangabad",100219110,Civil Engineering,TFWS,47878,85.64,Government Autonomous,,State Level
+2008,"Government College of Engineering, Aurangabad",100219110,Civil Engineering,PWDOPENS,76983,76.91,Government Autonomous,,Other University
+2008,"Government College of Engineering, Aurangabad",100219110,Civil Engineering,ORPHAN,19930,94.02,Government Aided,,State Level
+2008,"Government College of Engineering, Aurangabad",421019210,Computer Science and Engineering,GOPENS,19996,94.0,Government,,Other University
+2008,"Government College of Engineering, Aurangabad",421019210,Computer Science and Engineering,GOBCS,22133,93.36,Government,,Other University
+2008,"Government College of Engineering, Aurangabad",421019210,Computer Science and Engineering,GNT1S,27120,91.86,Government,,Home University
+2008,"Government College of Engineering, Aurangabad",421019210,Computer Science and Engineering,LOPENH,33330,90.0,Government Autonomous,,Other University
+2008,"Government College of Engineering, Aurangabad",421019210,Computer Science and Engineering,DEFOPENS,5253,98.42,Government Aided,,State Level
+2008,"Government College of Engineering, Aurangabad",421019210,Computer Science and Engineering,TFWS,3316,99.01,Government Autonomous,,State Level
+2008,"Government College of Engineering, Aurangabad",421019210,Computer Science and Engineering,PWDOPENS,54656,83.6,Government Aided,,State Level
+2008,"Government College of Engineering, Aurangabad",421019210,Computer Science and Engineering,ORPHAN,30792,90.76,Government Aided,,State Level
+2008,"Government College of Engineering, Aurangabad",461019610,Information Technology,GOPENS,21695,93.49,Government,,Other University
+2008,"Government College of Engineering, Aurangabad",461019610,Information Technology,GOBCS,15145,95.46,Government Aided,,Other University
+2008,"Government College of Engineering, Aurangabad",461019610,Information Technology,GNT1S,5150,98.45,Government Aided,,Other University
+2008,"Government College of Engineering, Aurangabad",461019610,Information Technology,LOPENH,29108,91.27,Government Aided,,Home University
+2008,"Government College of Engineering, Aurangabad",461019610,Information Technology,DEFOPENS,55844,83.25,Government Aided,,Home University
+2008,"Government College of Engineering, Aurangabad",461019610,Information Technology,TFWS,16535,95.04,Government Aided,,Other University
+2008,"Government College of Engineering, Aurangabad",461019610,Information Technology,PWDOPENS,16436,95.07,Government Aided,,Other University
+2008,"Government College of Engineering, Aurangabad",461019610,Information Technology,ORPHAN,47316,85.81,Government,,State Level
+2008,"Government College of Engineering, Aurangabad",931019310,Electrical Engineering,GOPENS,2160,99.35,Government Autonomous,,State Level
+2008,"Government College of Engineering, Aurangabad",931019310,Electrical Engineering,GOBCS,7708,97.69,Government,,Home University
+2008,"Government College of Engineering, Aurangabad",931019310,Electrical Engineering,GNT1S,7945,97.62,Government Autonomous,,State Level
+2008,"Government College of Engineering, Aurangabad",931019310,Electrical Engineering,LOPENH,35517,89.34,Government Autonomous,,Other University
+2008,"Government College of Engineering, Aurangabad",931019310,Electrical Engineering,DEFOPENS,54254,83.72,Government Aided,,Other University
+2008,"Government College of Engineering, Aurangabad",931019310,Electrical Engineering,TFWS,29996,91.0,Government,,Other University
+2008,"Government College of Engineering, Aurangabad",931019310,Electrical Engineering,PWDOPENS,8903,97.33,Government Autonomous,,State Level
+2008,"Government College of Engineering, Aurangabad",931019310,Electrical Engineering,ORPHAN,41592,87.52,Government,,Other University
+2008,"Government College of Engineering, Aurangabad",721017210,Electronics and Telecommunication Engg,GOPENS,6615,98.02,Government,,Home University
+2008,"Government College of Engineering, Aurangabad",721017210,Electronics and Telecommunication Engg,GOBCS,8582,97.43,Government Autonomous,,Other University
+2008,"Government College of Engineering, Aurangabad",721017210,Electronics and Telecommunication Engg,GNT1S,40972,87.71,Government Aided,,State Level
+2008,"Government College of Engineering, Aurangabad",721017210,Electronics and Telecommunication Engg,LOPENH,52081,84.38,Government Autonomous,,Other University
+2008,"Government College of Engineering, Aurangabad",721017210,Electronics and Telecommunication Engg,DEFOPENS,48240,85.53,Government Aided,,State Level
+2008,"Government College of Engineering, Aurangabad",721017210,Electronics and Telecommunication Engg,TFWS,17600,94.72,Government,,Home University
+2008,"Government College of Engineering, Aurangabad",721017210,Electronics and Telecommunication Engg,PWDOPENS,14600,95.62,Government,,State Level
+2008,"Government College of Engineering, Aurangabad",721017210,Electronics and Telecommunication Engg,ORPHAN,63096,81.07,Government Aided,,Home University
+2008,"Government College of Engineering, Aurangabad",121011210,Mechanical Engineering,GOPENS,17923,94.62,Government,,Home University
+2008,"Government College of Engineering, Aurangabad",121011210,Mechanical Engineering,GOBCS,3449,98.97,Government Autonomous,,Home University
+2008,"Government College of Engineering, Aurangabad",121011210,Mechanical Engineering,GNT1S,62533,81.24,Government Autonomous,,Home University
+2008,"Government College of Engineering, Aurangabad",121011210,Mechanical Engineering,LOPENH,36152,89.15,Government Aided,,Home University
+2008,"Government College of Engineering, Aurangabad",121011210,Mechanical Engineering,DEFOPENS,77275,76.82,Government Aided,,Other University
+2008,"Government College of Engineering, Aurangabad",121011210,Mechanical Engineering,TFWS,13961,95.81,Government,,Home University
+2008,"Government College of Engineering, Aurangabad",121011210,Mechanical Engineering,PWDOPENS,55628,83.31,Government Autonomous,,Other University
+2008,"Government College of Engineering, Aurangabad",121011210,Mechanical Engineering,ORPHAN,38766,88.37,Government Autonomous,,Other University
+2008,"Government College of Engineering, Aurangabad",951019510,Artificial Intelligence and Data Science,GOPENS,39512,88.15,Government Aided,,State Level
+2008,"Government College of Engineering, Aurangabad",951019510,Artificial Intelligence and Data Science,GOBCS,27210,91.84,Government Aided,,State Level
+2008,"Government College of Engineering, Aurangabad",951019510,Artificial Intelligence and Data Science,GNT1S,53593,83.92,Government Aided,,Home University
+2008,"Government College of Engineering, Aurangabad",951019510,Artificial Intelligence and Data Science,LOPENH,13248,96.03,Government Autonomous,,Home University
+2008,"Government College of Engineering, Aurangabad",951019510,Artificial Intelligence and Data Science,DEFOPENS,12335,96.3,Government,,Home University
+2008,"Government College of Engineering, Aurangabad",951019510,Artificial Intelligence and Data Science,TFWS,2847,99.15,Government Autonomous,,State Level
+2008,"Government College of Engineering, Aurangabad",951019510,Artificial Intelligence and Data Science,PWDOPENS,44460,86.66,Government Autonomous,,Home University
+2008,"Government College of Engineering, Aurangabad",951019510,Artificial Intelligence and Data Science,ORPHAN,54815,83.56,Government,,State Level
+2008,"Government College of Engineering, Aurangabad",071010710,Chemical Engineering,GOPENS,29989,91.0,Government Autonomous,,State Level
+2008,"Government College of Engineering, Aurangabad",071010710,Chemical Engineering,GOBCS,36197,89.14,Government,,Other University
+2008,"Government College of Engineering, Aurangabad",071010710,Chemical Engineering,GNT1S,47785,85.66,Government Aided,,State Level
+2008,"Government College of Engineering, Aurangabad",071010710,Chemical Engineering,LOPENH,8153,97.55,Government Aided,,Other University
+2008,"Government College of Engineering, Aurangabad",071010710,Chemical Engineering,DEFOPENS,79012,76.3,Government Autonomous,,Other University
+2008,"Government College of Engineering, Aurangabad",071010710,Chemical Engineering,TFWS,7837,97.65,Government,,Home University
+2008,"Government College of Engineering, Aurangabad",071010710,Chemical Engineering,PWDOPENS,44841,86.55,Government Autonomous,,State Level
+2008,"Government College of Engineering, Aurangabad",071010710,Chemical Engineering,ORPHAN,56166,83.15,Government,,Other University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",100219110,Civil Engineering,GOPENS,6943,97.92,Private,,State Level
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",100219110,Civil Engineering,GOBCS,25960,92.21,Government,,State Level
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",100219110,Civil Engineering,GNT1S,25048,92.49,Government,,State Level
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",100219110,Civil Engineering,LOPENH,70565,78.83,Private,,Other University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",100219110,Civil Engineering,DEFOPENS,73057,78.08,Private,,State Level
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",100219110,Civil Engineering,TFWS,19423,94.17,Government,,Home University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",100219110,Civil Engineering,PWDOPENS,31841,90.45,Government,,State Level
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",100219110,Civil Engineering,ORPHAN,55473,83.36,Government Autonomous,,State Level
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",421019210,Computer Science and Engineering,GOPENS,24550,92.64,Government Aided,,Other University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",421019210,Computer Science and Engineering,GOBCS,48935,85.32,University Department,,State Level
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",421019210,Computer Science and Engineering,GNT1S,43908,86.83,Government Aided,,Home University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",421019210,Computer Science and Engineering,LOPENH,30772,90.77,Private,,Other University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",421019210,Computer Science and Engineering,DEFOPENS,63933,80.82,Government,,Other University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",421019210,Computer Science and Engineering,TFWS,40888,87.73,Government Autonomous,,Home University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",421019210,Computer Science and Engineering,PWDOPENS,39559,88.13,Private,,State Level
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",421019210,Computer Science and Engineering,ORPHAN,50180,84.95,Government Aided,,State Level
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",461019610,Information Technology,GOPENS,20948,93.72,Government Autonomous,,Other University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",461019610,Information Technology,GOBCS,49988,85.0,Government Aided,,Other University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",461019610,Information Technology,GNT1S,44712,86.59,Government Aided,,State Level
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",461019610,Information Technology,LOPENH,51195,84.64,Government Autonomous,,Home University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",461019610,Information Technology,DEFOPENS,28733,91.38,University Department,,Other University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",461019610,Information Technology,TFWS,29815,91.06,Government Autonomous,,State Level
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",461019610,Information Technology,PWDOPENS,58844,82.35,Government,,State Level
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",461019610,Information Technology,ORPHAN,46538,86.04,Government Aided,,State Level
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",931019310,Electrical Engineering,GOPENS,14477,95.66,Private,,Other University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",931019310,Electrical Engineering,GOBCS,26409,92.08,University Department,,Home University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",931019310,Electrical Engineering,GNT1S,25776,92.27,Government,,Home University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",931019310,Electrical Engineering,LOPENH,69359,79.19,Government,,Home University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",931019310,Electrical Engineering,DEFOPENS,59505,82.15,Government Aided,,State Level
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",931019310,Electrical Engineering,TFWS,54831,83.55,Private,,Other University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",931019310,Electrical Engineering,PWDOPENS,50144,84.96,University Department,,Home University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",931019310,Electrical Engineering,ORPHAN,75998,77.2,Government Autonomous,,Home University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",721017210,Electronics and Telecommunication Engg,GOPENS,18105,94.57,Private,,Home University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",721017210,Electronics and Telecommunication Engg,GOBCS,56240,83.13,Private,,Other University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",721017210,Electronics and Telecommunication Engg,GNT1S,25959,92.21,Government Autonomous,,Home University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",721017210,Electronics and Telecommunication Engg,LOPENH,7493,97.75,Government Autonomous,,Other University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",721017210,Electronics and Telecommunication Engg,DEFOPENS,17498,94.75,University Department,,State Level
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",721017210,Electronics and Telecommunication Engg,TFWS,11663,96.5,Government,,Home University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",721017210,Electronics and Telecommunication Engg,PWDOPENS,67530,79.74,Government,,State Level
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",721017210,Electronics and Telecommunication Engg,ORPHAN,5859,98.24,Private,,Other University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",121011210,Mechanical Engineering,GOPENS,38973,88.31,Government Aided,,Other University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",121011210,Mechanical Engineering,GOBCS,60219,81.93,Government Autonomous,,Other University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",121011210,Mechanical Engineering,GNT1S,70383,78.89,University Department,,Home University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",121011210,Mechanical Engineering,LOPENH,19025,94.29,University Department,,Home University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",121011210,Mechanical Engineering,DEFOPENS,38686,88.39,University Department,,Other University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",121011210,Mechanical Engineering,TFWS,5012,98.5,Government,,State Level
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",121011210,Mechanical Engineering,PWDOPENS,8283,97.52,University Department,,Home University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",121011210,Mechanical Engineering,ORPHAN,49249,85.23,Government,,State Level
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",951019510,Artificial Intelligence and Data Science,GOPENS,39567,88.13,Government,,Home University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",951019510,Artificial Intelligence and Data Science,GOBCS,53584,83.92,Government Aided,,Home University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",951019510,Artificial Intelligence and Data Science,GNT1S,77637,76.71,Government Autonomous,,State Level
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",951019510,Artificial Intelligence and Data Science,LOPENH,35163,89.45,Private,,Other University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",951019510,Artificial Intelligence and Data Science,DEFOPENS,39152,88.25,Government Aided,,Home University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",951019510,Artificial Intelligence and Data Science,TFWS,49109,85.27,Government,,State Level
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",951019510,Artificial Intelligence and Data Science,PWDOPENS,98931,70.32,Government Aided,,Other University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",951019510,Artificial Intelligence and Data Science,ORPHAN,94228,71.73,Government,,Home University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",071010710,Chemical Engineering,GOPENS,12979,96.11,Government Autonomous,,State Level
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",071010710,Chemical Engineering,GOBCS,57330,82.8,University Department,,State Level
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",071010710,Chemical Engineering,GNT1S,92422,72.27,Government,,State Level
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",071010710,Chemical Engineering,LOPENH,69976,79.01,Private,,State Level
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",071010710,Chemical Engineering,DEFOPENS,39268,88.22,Government Aided,,Other University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",071010710,Chemical Engineering,TFWS,42819,87.15,Government Autonomous,,Other University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",071010710,Chemical Engineering,PWDOPENS,64119,80.76,Private,,Other University
+3012,"Veermata Jijabai Technological Institute(VJTI), Mumbai",071010710,Chemical Engineering,ORPHAN,40605,87.82,Private,,Home University
+4025,"Government College of Engineering, Nagpur",100219110,Civil Engineering,GOPENS,38061,88.58,Government Aided,,Other University
+4025,"Government College of Engineering, Nagpur",100219110,Civil Engineering,GOBCS,6012,98.2,Government Autonomous,,Home University
+4025,"Government College of Engineering, Nagpur",100219110,Civil Engineering,GNT1S,66108,80.17,Government Aided,,State Level
+4025,"Government College of Engineering, Nagpur",100219110,Civil Engineering,LOPENH,67159,79.85,Government Aided,,Home University
+4025,"Government College of Engineering, Nagpur",100219110,Civil Engineering,DEFOPENS,7376,97.79,Government Aided,,Other University
+4025,"Government College of Engineering, Nagpur",100219110,Civil Engineering,TFWS,54857,83.54,Government Autonomous,,State Level
+4025,"Government College of Engineering, Nagpur",100219110,Civil Engineering,PWDOPENS,5196,98.44,Government,,Home University
+4025,"Government College of Engineering, Nagpur",100219110,Civil Engineering,ORPHAN,25096,92.47,Government Aided,,State Level
+4025,"Government College of Engineering, Nagpur",421019210,Computer Science and Engineering,GOPENS,10468,96.86,Government Autonomous,,Home University
+4025,"Government College of Engineering, Nagpur",421019210,Computer Science and Engineering,GOBCS,19764,94.07,Government Autonomous,,Home University
+4025,"Government College of Engineering, Nagpur",421019210,Computer Science and Engineering,GNT1S,36714,88.99,Government Aided,,State Level
+4025,"Government College of Engineering, Nagpur",421019210,Computer Science and Engineering,LOPENH,7815,97.66,Government Autonomous,,State Level
+4025,"Government College of Engineering, Nagpur",421019210,Computer Science and Engineering,DEFOPENS,29368,91.19,Government Autonomous,,Other University
+4025,"Government College of Engineering, Nagpur",421019210,Computer Science and Engineering,TFWS,7496,97.75,Government Autonomous,,Home University
+4025,"Government College of Engineering, Nagpur",421019210,Computer Science and Engineering,PWDOPENS,32218,90.33,Government,,Other University
+4025,"Government College of Engineering, Nagpur",421019210,Computer Science and Engineering,ORPHAN,8771,97.37,Government Aided,,State Level
+4025,"Government College of Engineering, Nagpur",461019610,Information Technology,GOPENS,27266,91.82,Government,,State Level
+4025,"Government College of Engineering, Nagpur",461019610,Information Technology,GOBCS,15874,95.24,Government Aided,,Other University
+4025,"Government College of Engineering, Nagpur",461019610,Information Technology,GNT1S,45735,86.28,Government,,State Level
+4025,"Government College of Engineering, Nagpur",461019610,Information Technology,LOPENH,12885,96.13,Government Autonomous,,State Level
+4025,"Government College of Engineering, Nagpur",461019610,Information Technology,DEFOPENS,43455,86.96,Government Aided,,Home University
+4025,"Government College of Engineering, Nagpur",461019610,Information Technology,TFWS,36803,88.96,Government Autonomous,,Home University
+4025,"Government College of Engineering, Nagpur",461019610,Information Technology,PWDOPENS,50599,84.82,Government Aided,,State Level
+4025,"Government College of Engineering, Nagpur",461019610,Information Technology,ORPHAN,16414,95.08,Government Aided,,Home University
+4025,"Government College of Engineering, Nagpur",931019310,Electrical Engineering,GOPENS,23601,92.92,Government Aided,,State Level
+4025,"Government College of Engineering, Nagpur",931019310,Electrical Engineering,GOBCS,16401,95.08,Government Aided,,Home University
+4025,"Government College of Engineering, Nagpur",931019310,Electrical Engineering,GNT1S,13561,95.93,Government Aided,,Home University
+4025,"Government College of Engineering, Nagpur",931019310,Electrical Engineering,LOPENH,11149,96.66,Government,,Home University
+4025,"Government College of Engineering, Nagpur",931019310,Electrical Engineering,DEFOPENS,61879,81.44,Government Aided,,State Level
+4025,"Government College of Engineering, Nagpur",931019310,Electrical Engineering,TFWS,20073,93.98,Government Autonomous,,State Level
+4025,"Government College of Engineering, Nagpur",931019310,Electrical Engineering,PWDOPENS,5522,98.34,Government,,State Level
+4025,"Government College of Engineering, Nagpur",931019310,Electrical Engineering,ORPHAN,29764,91.07,Government Autonomous,,Other University
+4025,"Government College of Engineering, Nagpur",721017210,Electronics and Telecommunication Engg,GOPENS,5458,98.36,Government,,State Level
+4025,"Government College of Engineering, Nagpur",721017210,Electronics and Telecommunication Engg,GOBCS,29344,91.2,Government Aided,,Home University
+4025,"Government College of Engineering, Nagpur",721017210,Electronics and Telecommunication Engg,GNT1S,45600,86.32,Government Autonomous,,Other University
+4025,"Government College of Engineering, Nagpur",721017210,Electronics and Telecommunication Engg,LOPENH,55664,83.3,Government Aided,,Other University
+4025,"Government College of Engineering, Nagpur",721017210,Electronics and Telecommunication Engg,DEFOPENS,6259,98.12,Government Autonomous,,State Level
+4025,"Government College of Engineering, Nagpur",721017210,Electronics and Telecommunication Engg,TFWS,3036,99.09,Government Aided,,Other University
+4025,"Government College of Engineering, Nagpur",721017210,Electronics and Telecommunication Engg,PWDOPENS,41752,87.47,Government Autonomous,,Other University
+4025,"Government College of Engineering, Nagpur",721017210,Electronics and Telecommunication Engg,ORPHAN,15898,95.23,Government Aided,,Other University
+4025,"Government College of Engineering, Nagpur",121011210,Mechanical Engineering,GOPENS,13446,95.97,Government Autonomous,,Home University
+4025,"Government College of Engineering, Nagpur",121011210,Mechanical Engineering,GOBCS,49395,85.18,Government Aided,,Other University
+4025,"Government College of Engineering, Nagpur",121011210,Mechanical Engineering,GNT1S,46512,86.05,Government Autonomous,,State Level
+4025,"Government College of Engineering, Nagpur",121011210,Mechanical Engineering,LOPENH,46836,85.95,Government Aided,,Home University
+4025,"Government College of Engineering, Nagpur",121011210,Mechanical Engineering,DEFOPENS,33951,89.81,Government,,Home University
+4025,"Government College of Engineering, Nagpur",121011210,Mechanical Engineering,TFWS,49109,85.27,Government,,Other University
+4025,"Government College of Engineering, Nagpur",121011210,Mechanical Engineering,PWDOPENS,52562,84.23,Government Autonomous,,State Level
+4025,"Government College of Engineering, Nagpur",121011210,Mechanical Engineering,ORPHAN,29785,91.06,Government Aided,,Other University
+4025,"Government College of Engineering, Nagpur",951019510,Artificial Intelligence and Data Science,GOPENS,3282,99.02,Government Aided,,Home University
+4025,"Government College of Engineering, Nagpur",951019510,Artificial Intelligence and Data Science,GOBCS,32795,90.16,Government Autonomous,,Home University
+4025,"Government College of Engineering, Nagpur",951019510,Artificial Intelligence and Data Science,GNT1S,64338,80.7,Government Autonomous,,Home University
+4025,"Government College of Engineering, Nagpur",951019510,Artificial Intelligence and Data Science,LOPENH,24954,92.51,Government Aided,,Home University
+4025,"Government College of Engineering, Nagpur",951019510,Artificial Intelligence and Data Science,DEFOPENS,57674,82.7,Government Autonomous,,Other University
+4025,"Government College of Engineering, Nagpur",951019510,Artificial Intelligence and Data Science,TFWS,36790,88.96,Government,,Home University
+4025,"Government College of Engineering, Nagpur",951019510,Artificial Intelligence and Data Science,PWDOPENS,36905,88.93,Government Aided,,Home University
+4025,"Government College of Engineering, Nagpur",951019510,Artificial Intelligence and Data Science,ORPHAN,33978,89.81,Government Autonomous,,Home University
+4025,"Government College of Engineering, Nagpur",071010710,Chemical Engineering,GOPENS,41105,87.67,Government,,State Level
+4025,"Government College of Engineering, Nagpur",071010710,Chemical Engineering,GOBCS,12358,96.29,Government,,State Level
+4025,"Government College of Engineering, Nagpur",071010710,Chemical Engineering,GNT1S,17706,94.69,Government,,Other University
+4025,"Government College of Engineering, Nagpur",071010710,Chemical Engineering,LOPENH,6085,98.17,Government Autonomous,,Home University
+4025,"Government College of Engineering, Nagpur",071010710,Chemical Engineering,DEFOPENS,67895,79.63,Government Autonomous,,Home University
+4025,"Government College of Engineering, Nagpur",071010710,Chemical Engineering,TFWS,29505,91.15,Government Aided,,State Level
+4025,"Government College of Engineering, Nagpur",071010710,Chemical Engineering,PWDOPENS,10842,96.75,Government,,Other University
+4025,"Government College of Engineering, Nagpur",071010710,Chemical Engineering,ORPHAN,32698,90.19,Government Aided,,State Level
+5004,"Government College of Engineering, Jalgaon",100219110,Civil Engineering,GOPENS,11140,96.66,Government Aided,,Home University
+5004,"Government College of Engineering, Jalgaon",100219110,Civil Engineering,GOBCS,23123,93.06,Government,,Other University
+5004,"Government College of Engineering, Jalgaon",100219110,Civil Engineering,GNT1S,75430,77.37,Government Autonomous,,Other University
+5004,"Government College of Engineering, Jalgaon",100219110,Civil Engineering,LOPENH,6159,98.15,Government,,Home University
+5004,"Government College of Engineering, Jalgaon",100219110,Civil Engineering,DEFOPENS,22645,93.21,Government Aided,,State Level
+5004,"Government College of Engineering, Jalgaon",100219110,Civil Engineering,TFWS,51567,84.53,Government,,State Level
+5004,"Government College of Engineering, Jalgaon",100219110,Civil Engineering,PWDOPENS,17472,94.76,Government Autonomous,,State Level
+5004,"Government College of Engineering, Jalgaon",100219110,Civil Engineering,ORPHAN,4367,98.69,Government Autonomous,,Home University
+5004,"Government College of Engineering, Jalgaon",421019210,Computer Science and Engineering,GOPENS,9606,97.12,Government,,State Level
+5004,"Government College of Engineering, Jalgaon",421019210,Computer Science and Engineering,GOBCS,29660,91.1,Government Autonomous,,Home University
+5004,"Government College of Engineering, Jalgaon",421019210,Computer Science and Engineering,GNT1S,5035,98.49,Government Aided,,State Level
+5004,"Government College of Engineering, Jalgaon",421019210,Computer Science and Engineering,LOPENH,14390,95.68,Government,,Other University
+5004,"Government College of Engineering, Jalgaon",421019210,Computer Science and Engineering,DEFOPENS,26948,91.92,Government,,Home University
+5004,"Government College of Engineering, Jalgaon",421019210,Computer Science and Engineering,TFWS,29782,91.07,Government,,State Level
+5004,"Government College of Engineering, Jalgaon",421019210,Computer Science and Engineering,PWDOPENS,6128,98.16,Government Autonomous,,Other University
+5004,"Government College of Engineering, Jalgaon",421019210,Computer Science and Engineering,ORPHAN,21962,93.41,Government,,Other University
+5004,"Government College of Engineering, Jalgaon",461019610,Information Technology,GOPENS,20234,93.93,Government Aided,,State Level
+5004,"Government College of Engineering, Jalgaon",461019610,Information Technology,GOBCS,43560,86.93,Government Aided,,Home University
+5004,"Government College of Engineering, Jalgaon",461019610,Information Technology,GNT1S,43911,86.83,Government,,Home University
+5004,"Government College of Engineering, Jalgaon",461019610,Information Technology,LOPENH,23847,92.85,Government Autonomous,,Other University
+5004,"Government College of Engineering, Jalgaon",461019610,Information Technology,DEFOPENS,52502,84.25,Government Autonomous,,State Level
+5004,"Government College of Engineering, Jalgaon",461019610,Information Technology,TFWS,35225,89.43,Government Aided,,Other University
+5004,"Government College of Engineering, Jalgaon",461019610,Information Technology,PWDOPENS,41153,87.65,Government,,Other University
+5004,"Government College of Engineering, Jalgaon",461019610,Information Technology,ORPHAN,13440,95.97,Government,,State Level
+5004,"Government College of Engineering, Jalgaon",931019310,Electrical Engineering,GOPENS,28106,91.57,Government,,Other University
+5004,"Government College of Engineering, Jalgaon",931019310,Electrical Engineering,GOBCS,4178,98.75,Government,,Home University
+5004,"Government College of Engineering, Jalgaon",931019310,Electrical Engineering,GNT1S,29089,91.27,Government Autonomous,,Home University
+5004,"Government College of Engineering, Jalgaon",931019310,Electrical Engineering,LOPENH,17493,94.75,Government Autonomous,,Home University
+5004,"Government College of Engineering, Jalgaon",931019310,Electrical Engineering,DEFOPENS,20411,93.88,Government Autonomous,,State Level
+5004,"Government College of Engineering, Jalgaon",931019310,Electrical Engineering,TFWS,11480,96.56,Government Aided,,Other University
+5004,"Government College of Engineering, Jalgaon",931019310,Electrical Engineering,PWDOPENS,59938,82.02,Government Autonomous,,Home University
+5004,"Government College of Engineering, Jalgaon",931019310,Electrical Engineering,ORPHAN,4493,98.65,Government Autonomous,,Home University
+5004,"Government College of Engineering, Jalgaon",721017210,Electronics and Telecommunication Engg,GOPENS,17158,94.85,Government Autonomous,,State Level
+5004,"Government College of Engineering, Jalgaon",721017210,Electronics and Telecommunication Engg,GOBCS,30062,90.98,Government Aided,,Home University
+5004,"Government College of Engineering, Jalgaon",721017210,Electronics and Telecommunication Engg,GNT1S,49880,85.04,Government Aided,,Home University
+5004,"Government College of Engineering, Jalgaon",721017210,Electronics and Telecommunication Engg,LOPENH,52774,84.17,Government Aided,,State Level
+5004,"Government College of Engineering, Jalgaon",721017210,Electronics and Telecommunication Engg,DEFOPENS,60432,81.87,Government,,State Level
+5004,"Government College of Engineering, Jalgaon",721017210,Electronics and Telecommunication Engg,TFWS,24743,92.58,Government Autonomous,,Other University
+5004,"Government College of Engineering, Jalgaon",721017210,Electronics and Telecommunication Engg,PWDOPENS,34312,89.71,Government,,Home University
+5004,"Government College of Engineering, Jalgaon",721017210,Electronics and Telecommunication Engg,ORPHAN,20618,93.81,Government Aided,,Other University
+5004,"Government College of Engineering, Jalgaon",121011210,Mechanical Engineering,GOPENS,30224,90.93,Government,,Home University
+5004,"Government College of Engineering, Jalgaon",121011210,Mechanical Engineering,GOBCS,35270,89.42,Government Autonomous,,State Level
+5004,"Government College of Engineering, Jalgaon",121011210,Mechanical Engineering,GNT1S,78587,76.42,Government Aided,,Home University
+5004,"Government College of Engineering, Jalgaon",121011210,Mechanical Engineering,LOPENH,68192,79.54,Government Aided,,Other University
+5004,"Government College of Engineering, Jalgaon",121011210,Mechanical Engineering,DEFOPENS,71743,78.48,Government Aided,,Home University
+5004,"Government College of Engineering, Jalgaon",121011210,Mechanical Engineering,TFWS,3806,98.86,Government Aided,,Home University
+5004,"Government College of Engineering, Jalgaon",121011210,Mechanical Engineering,PWDOPENS,31020,90.69,Government Autonomous,,Home University
+5004,"Government College of Engineering, Jalgaon",121011210,Mechanical Engineering,ORPHAN,19544,94.14,Government,,State Level
+5004,"Government College of Engineering, Jalgaon",951019510,Artificial Intelligence and Data Science,GOPENS,13248,96.03,Government Autonomous,,State Level
+5004,"Government College of Engineering, Jalgaon",951019510,Artificial Intelligence and Data Science,GOBCS,25988,92.2,Government,,Other University
+5004,"Government College of Engineering, Jalgaon",951019510,Artificial Intelligence and Data Science,GNT1S,24288,92.71,Government Aided,,Other University
+5004,"Government College of Engineering, Jalgaon",951019510,Artificial Intelligence and Data Science,LOPENH,31512,90.55,Government,,State Level
+5004,"Government College of Engineering, Jalgaon",951019510,Artificial Intelligence and Data Science,DEFOPENS,13204,96.04,Government Aided,,Other University
+5004,"Government College of Engineering, Jalgaon",951019510,Artificial Intelligence and Data Science,TFWS,29206,91.24,Government Autonomous,,Home University
+5004,"Government College of Engineering, Jalgaon",951019510,Artificial Intelligence and Data Science,PWDOPENS,15599,95.32,Government Aided,,State Level
+5004,"Government College of Engineering, Jalgaon",951019510,Artificial Intelligence and Data Science,ORPHAN,59599,82.12,Government Autonomous,,State Level
+5004,"Government College of Engineering, Jalgaon",071010710,Chemical Engineering,GOPENS,20724,93.78,Government,,Home University
+5004,"Government College of Engineering, Jalgaon",071010710,Chemical Engineering,GOBCS,33552,89.93,Government,,Other University
+5004,"Government College of Engineering, Jalgaon",071010710,Chemical Engineering,GNT1S,28944,91.32,Government Aided,,Other University
+5004,"Government College of Engineering, Jalgaon",071010710,Chemical Engineering,LOPENH,71289,78.61,Government Autonomous,,State Level
+5004,"Government College of Engineering, Jalgaon",071010710,Chemical Engineering,DEFOPENS,63861,80.84,Government Aided,,State Level
+5004,"Government College of Engineering, Jalgaon",071010710,Chemical Engineering,TFWS,47959,85.61,Government Autonomous,,State Level
+5004,"Government College of Engineering, Jalgaon",071010710,Chemical Engineering,PWDOPENS,33066,90.08,Government Aided,,Home University
+5004,"Government College of Engineering, Jalgaon",071010710,Chemical Engineering,ORPHAN,61320,81.6,Government,,Other University
+6006,COEP Technological University,100219110,Civil Engineering,GOPENS,16945,94.92,Government Autonomous,,State Level
+6006,COEP Technological University,100219110,Civil Engineering,GOBCS,71108,78.67,Private,,State Level
+6006,COEP Technological University,100219110,Civil Engineering,GNT1S,29444,91.17,Government,,Other University
+6006,COEP Technological University,100219110,Civil Engineering,LOPENH,71708,78.49,Government Aided,,State Level
+6006,COEP Technological University,100219110,Civil Engineering,DEFOPENS,99988,70.0,Private,,Home University
+6006,COEP Technological University,100219110,Civil Engineering,TFWS,29214,91.24,University Department,,Home University
+6006,COEP Technological University,100219110,Civil Engineering,PWDOPENS,24520,92.64,Private,,State Level
+6006,COEP Technological University,100219110,Civil Engineering,ORPHAN,71104,78.67,Private,,State Level
+6006,COEP Technological University,421019210,Computer Science and Engineering,GOPENS,11468,96.56,University Department,,Home University
+6006,COEP Technological University,421019210,Computer Science and Engineering,GOBCS,31948,90.42,Government Autonomous,,Other University
+6006,COEP Technological University,421019210,Computer Science and Engineering,GNT1S,32477,90.26,Private,,State Level
+6006,COEP Technological University,421019210,Computer Science and Engineering,LOPENH,64698,80.59,Government Autonomous,,State Level
+6006,COEP Technological University,421019210,Computer Science and Engineering,DEFOPENS,20255,93.92,Private,,Home University
+6006,COEP Technological University,421019210,Computer Science and Engineering,TFWS,33294,90.01,Government Aided,,Other University
+6006,COEP Technological University,421019210,Computer Science and Engineering,PWDOPENS,18365,94.49,Private,,Home University
+6006,COEP Technological University,421019210,Computer Science and Engineering,ORPHAN,61966,81.41,University Department,,Home University
+6006,COEP Technological University,461019610,Information Technology,GOPENS,12990,96.1,Government Aided,,Other University
+6006,COEP Technological University,461019610,Information Technology,GOBCS,10935,96.72,Private,,Other University
+6006,COEP Technological University,461019610,Information Technology,GNT1S,69146,79.26,Government Aided,,State Level
+6006,COEP Technological University,461019610,Information Technology,LOPENH,60278,81.92,Government,,Home University
+6006,COEP Technological University,461019610,Information Technology,DEFOPENS,12035,96.39,University Department,,State Level
+6006,COEP Technological University,461019610,Information Technology,TFWS,27343,91.8,Private,,Home University
+6006,COEP Technological University,461019610,Information Technology,PWDOPENS,36280,89.12,Private,,Home University
+6006,COEP Technological University,461019610,Information Technology,ORPHAN,12478,96.26,Private,,State Level
+6006,COEP Technological University,931019310,Electrical Engineering,GOPENS,24047,92.79,Government Autonomous,,Other University
+6006,COEP Technological University,931019310,Electrical Engineering,GOBCS,67202,79.84,University Department,,Other University
+6006,COEP Technological University,931019310,Electrical Engineering,GNT1S,76548,77.04,University Department,,Other University
+6006,COEP Technological University,931019310,Electrical Engineering,LOPENH,33366,89.99,University Department,,Home University
+6006,COEP Technological University,931019310,Electrical Engineering,DEFOPENS,26277,92.12,Government,,Home University
+6006,COEP Technological University,931019310,Electrical Engineering,TFWS,59423,82.17,Government Autonomous,,State Level
+6006,COEP Technological University,931019310,Electrical Engineering,PWDOPENS,24243,92.73,Private,,Home University
+6006,COEP Technological University,931019310,Electrical Engineering,ORPHAN,46634,86.01,Government Aided,,State Level
+6006,COEP Technological University,721017210,Electronics and Telecommunication Engg,GOPENS,32848,90.15,University Department,,Home University
+6006,COEP Technological University,721017210,Electronics and Telecommunication Engg,GOBCS,47681,85.7,Private,,State Level
+6006,COEP Technological University,721017210,Electronics and Telecommunication Engg,GNT1S,42329,87.3,Government Autonomous,,Other University
+6006,COEP Technological University,721017210,Electronics and Telecommunication Engg,LOPENH,20719,93.78,Private,,State Level
+6006,COEP Technological University,721017210,Electronics and Telecommunication Engg,DEFOPENS,68329,79.5,Government Aided,,State Level
+6006,COEP Technological University,721017210,Electronics and Telecommunication Engg,TFWS,39505,88.15,Private,,Other University
+6006,COEP Technological University,721017210,Electronics and Telecommunication Engg,PWDOPENS,42699,87.19,Government Autonomous,,State Level
+6006,COEP Technological University,721017210,Electronics and Telecommunication Engg,ORPHAN,51341,84.6,Government Autonomous,,State Level
+6006,COEP Technological University,121011210,Mechanical Engineering,GOPENS,56930,82.92,Private,,Other University
+6006,COEP Technological University,121011210,Mechanical Engineering,GOBCS,60433,81.87,Government Aided,,Other University
+6006,COEP Technological University,121011210,Mechanical Engineering,GNT1S,93124,72.06,Government,,State Level
+6006,COEP Technological University,121011210,Mechanical Engineering,LOPENH,63911,80.83,Government Autonomous,,State Level
+6006,COEP Technological University,121011210,Mechanical Engineering,DEFOPENS,29536,91.14,Private,,Other University
+6006,COEP Technological University,121011210,Mechanical Engineering,TFWS,10615,96.82,University Department,,Home University
+6006,COEP Technological University,121011210,Mechanical Engineering,PWDOPENS,45392,86.38,Government Autonomous,,Other University
+6006,COEP Technological University,121011210,Mechanical Engineering,ORPHAN,27724,91.68,Government Aided,,State Level
+6006,COEP Technological University,951019510,Artificial Intelligence and Data Science,GOPENS,20942,93.72,Government,,State Level
+6006,COEP Technological University,951019510,Artificial Intelligence and Data Science,GOBCS,78369,76.49,Government,,Home University
+6006,COEP Technological University,951019510,Artificial Intelligence and Data Science,GNT1S,56890,82.93,Government Aided,,Home University
+6006,COEP Technological University,951019510,Artificial Intelligence and Data Science,LOPENH,67486,79.75,Government Autonomous,,Other University
+6006,COEP Technological University,951019510,Artificial Intelligence and Data Science,DEFOPENS,48611,85.42,Private,,Other University
+6006,COEP Technological University,951019510,Artificial Intelligence and Data Science,TFWS,34801,89.56,Government,,Other University
+6006,COEP Technological University,951019510,Artificial Intelligence and Data Science,PWDOPENS,37435,88.77,Government Aided,,Other University
+6006,COEP Technological University,951019510,Artificial Intelligence and Data Science,ORPHAN,19717,94.08,Government Aided,,Home University
+6006,COEP Technological University,071010710,Chemical Engineering,GOPENS,22402,93.28,Private,,Other University
+6006,COEP Technological University,071010710,Chemical Engineering,GOBCS,16799,94.96,University Department,,State Level
+6006,COEP Technological University,071010710,Chemical Engineering,GNT1S,35789,89.26,Government Aided,,Other University
+6006,COEP Technological University,071010710,Chemical Engineering,LOPENH,58481,82.46,University Department,,Other University
+6006,COEP Technological University,071010710,Chemical Engineering,DEFOPENS,30987,90.7,Government Aided,,Other University
+6006,COEP Technological University,071010710,Chemical Engineering,TFWS,17094,94.87,Private,,Other University
+6006,COEP Technological University,071010710,Chemical Engineering,PWDOPENS,63806,80.86,Private,,State Level
+6006,COEP Technological University,071010710,Chemical Engineering,ORPHAN,43467,86.96,Government,,State Level
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",100219110,Civil Engineering,GOPENS,21332,93.6,Government,,Home University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",100219110,Civil Engineering,GOBCS,68069,79.58,Government Autonomous,,State Level
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",100219110,Civil Engineering,GNT1S,19559,94.13,Private,,Home University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",100219110,Civil Engineering,LOPENH,94588,71.62,University Department,,State Level
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",100219110,Civil Engineering,DEFOPENS,46454,86.06,Government Aided,,Home University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",100219110,Civil Engineering,TFWS,52592,84.22,Government Aided,,Other University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",100219110,Civil Engineering,PWDOPENS,24892,92.53,Government,,State Level
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",100219110,Civil Engineering,ORPHAN,36662,89.0,University Department,,Other University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",421019210,Computer Science and Engineering,GOPENS,7685,97.69,Government Aided,,Home University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",421019210,Computer Science and Engineering,GOBCS,43479,86.96,Government Aided,,Home University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",421019210,Computer Science and Engineering,GNT1S,30946,90.72,Private,,Other University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",421019210,Computer Science and Engineering,LOPENH,8701,97.39,Private,,Home University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",421019210,Computer Science and Engineering,DEFOPENS,56055,83.18,Government Autonomous,,State Level
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",421019210,Computer Science and Engineering,TFWS,30628,90.81,Government Aided,,Home University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",421019210,Computer Science and Engineering,PWDOPENS,66017,80.19,Government Aided,,State Level
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",421019210,Computer Science and Engineering,ORPHAN,29618,91.11,Private,,State Level
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",461019610,Information Technology,GOPENS,26129,92.16,Government Aided,,Other University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",461019610,Information Technology,GOBCS,28156,91.55,Government Aided,,Home University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",461019610,Information Technology,GNT1S,12142,96.36,University Department,,State Level
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",461019610,Information Technology,LOPENH,38386,88.48,University Department,,Other University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",461019610,Information Technology,DEFOPENS,45894,86.23,Government,,Home University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",461019610,Information Technology,TFWS,10778,96.77,Government Autonomous,,Other University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",461019610,Information Technology,PWDOPENS,32529,90.24,Government Autonomous,,Home University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",461019610,Information Technology,ORPHAN,31498,90.55,University Department,,Other University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",931019310,Electrical Engineering,GOPENS,10366,96.89,Government,,Other University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",931019310,Electrical Engineering,GOBCS,53708,83.89,Private,,Home University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",931019310,Electrical Engineering,GNT1S,61569,81.53,Government Autonomous,,Home University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",931019310,Electrical Engineering,LOPENH,79193,76.24,Government Autonomous,,State Level
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",931019310,Electrical Engineering,DEFOPENS,62226,81.33,Government Autonomous,,Other University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",931019310,Electrical Engineering,TFWS,47619,85.71,Government Aided,,State Level
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",931019310,Electrical Engineering,PWDOPENS,40210,87.94,Government Autonomous,,Home University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",931019310,Electrical Engineering,ORPHAN,15363,95.39,Government Aided,,Other University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",721017210,Electronics and Telecommunication Engg,GOPENS,23121,93.06,Private,,Other University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",721017210,Electronics and Telecommunication Engg,GOBCS,53090,84.07,Government,,State Level
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",721017210,Electronics and Telecommunication Engg,GNT1S,52605,84.22,Private,,Home University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",721017210,Electronics and Telecommunication Engg,LOPENH,44189,86.74,Private,,Other University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",721017210,Electronics and Telecommunication Engg,DEFOPENS,78866,76.34,University Department,,Other University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",721017210,Electronics and Telecommunication Engg,TFWS,4468,98.66,Government Autonomous,,Home University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",721017210,Electronics and Telecommunication Engg,PWDOPENS,34892,89.53,Government Autonomous,,Home University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",721017210,Electronics and Telecommunication Engg,ORPHAN,8783,97.37,Private,,Other University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",121011210,Mechanical Engineering,GOPENS,38545,88.44,University Department,,Other University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",121011210,Mechanical Engineering,GOBCS,79233,76.23,Private,,State Level
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",121011210,Mechanical Engineering,GNT1S,99072,70.28,Private,,State Level
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",121011210,Mechanical Engineering,LOPENH,41171,87.65,Government,,Home University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",121011210,Mechanical Engineering,DEFOPENS,9958,97.01,Government Aided,,State Level
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",121011210,Mechanical Engineering,TFWS,4703,98.59,Government,,Home University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",121011210,Mechanical Engineering,PWDOPENS,10870,96.74,Private,,State Level
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",121011210,Mechanical Engineering,ORPHAN,39617,88.11,Government Autonomous,,Home University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",951019510,Artificial Intelligence and Data Science,GOPENS,7377,97.79,Government Autonomous,,State Level
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",951019510,Artificial Intelligence and Data Science,GOBCS,77684,76.69,Private,,State Level
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",951019510,Artificial Intelligence and Data Science,GNT1S,20883,93.74,Government,,Home University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",951019510,Artificial Intelligence and Data Science,LOPENH,73772,77.87,University Department,,Home University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",951019510,Artificial Intelligence and Data Science,DEFOPENS,65448,80.37,University Department,,State Level
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",951019510,Artificial Intelligence and Data Science,TFWS,19224,94.23,Private,,Home University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",951019510,Artificial Intelligence and Data Science,PWDOPENS,61122,81.66,University Department,,State Level
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",951019510,Artificial Intelligence and Data Science,ORPHAN,51802,84.46,Government Autonomous,,Home University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",071010710,Chemical Engineering,GOPENS,10233,96.93,Government Autonomous,,Home University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",071010710,Chemical Engineering,GOBCS,41885,87.43,Government,,State Level
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",071010710,Chemical Engineering,GNT1S,45595,86.32,Government Aided,,State Level
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",071010710,Chemical Engineering,LOPENH,56717,82.98,Government Aided,,State Level
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",071010710,Chemical Engineering,DEFOPENS,46496,86.05,Government,,Other University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",071010710,Chemical Engineering,TFWS,39890,88.03,Government,,Home University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",071010710,Chemical Engineering,PWDOPENS,17559,94.73,Government Autonomous,,Home University
+6207,"Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",071010710,Chemical Engineering,ORPHAN,27954,91.61,Government,,State Level
