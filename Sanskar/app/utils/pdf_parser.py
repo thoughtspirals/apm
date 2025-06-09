@@ -4,48 +4,18 @@ import unicodedata
 from sqlalchemy.orm import Session
 from app.models import Cutoff, College
 from app.database import engine
-from datetime import datetime 
+from datetime import datetime
 
-
-# Regular expressions
-PAIR_PATTERN = re.compile(r"(\d+)\s*\(([\d.]+)\)")
-COURSE_LINE_PATTERN = re.compile(r"^\d{9} -")
-CATEGORY_LINE_PATTERN = re.compile(r"^[A-Z0-9]+(?:\s+[A-Z0-9]+)+$")
-RANK_LINE_PATTERN = re.compile(r"^(\d+\s+)+\d+$")
-PERCENT_PATTERN = re.compile(r"\(([\d.]+)\)")
-
-# Keyword filters
-SKIP_KEYWORDS = ["Polytechnic", "Diploma", "ITI", "MSBTE"]
-VALID_KEYWORDS = ["College", "Institute", "Engineering", "Technology"]
-
-# Helper functions
-def is_course_line(line: str) -> bool:
-    return COURSE_LINE_PATTERN.match(line) is not None
-
-def looks_like_college_code(line: str) -> bool:
-    return re.match(r"^\d{9}[A-Z]?\s+-", line) is not None
-
-def is_valid_college_line(line: str) -> bool:
-    line_lower = line.lower()
-    skip_lower = [w.lower() for w in SKIP_KEYWORDS]
-    valid_lower = [w.lower() for w in VALID_KEYWORDS]
-
-    return (
-        " - " in line and
-        not any(word in line_lower for word in skip_lower) and
-        any(word in line_lower for word in valid_lower) and
-        not is_course_line(line) and
-        not looks_like_college_code(line)
-    )
-
-
-# Main extraction logic
 def extract_cutoffs_from_pdf(file_path: str, db: Session):
+    import unicodedata
+    import re
+    from datetime import datetime
+    from collections import deque
+    from app.models import Cutoff
+    import pdfplumber
+
     with pdfplumber.open(file_path) as pdf:
-        college = branch = None
-        current_category_line = ""
-        rank_line = None
-        stage_marker = ""
+        record_count = 0
 
         for page_num, page in enumerate(pdf.pages, start=1):
             text = page.extract_text()
@@ -53,54 +23,91 @@ def extract_cutoffs_from_pdf(file_path: str, db: Session):
                 continue
 
             lines = text.split("\n")
+            tables = deque(page.extract_tables())
+            course_blocks = []
+            current_college = current_college_code = None
+
+            # First pass to collect all college and course headers
             for line in lines:
                 line = unicodedata.normalize("NFKC", line.strip())
-                print(f"🔍 Raw line: '{line}'")
 
-                if is_valid_college_line(line):
-                    college = line
-                    print(f"\n🏫 Detected College: {college}")
+                # First match course (9–10 digit), then fallback to college (4–6 digit)
+                course_match = re.match(r"^(\d{9,10})\s*[-–—]?\s*(.+)", line)
+                if course_match:
+                    course_code = course_match.group(1).strip()
+                    branch = course_match.group(2).strip()
+                    print(f"📘 Detected Course: {branch} | Code: {course_code}")
+                    course_blocks.append({
+                        'college': current_college,
+                        'college_code': current_college_code,
+                        'course_code': course_code,
+                        'branch': branch,
+                    })
+                    continue  # skip trying college match if already matched
+
+                college_match = re.match(r"^(\d{4,6})\s*[-–—]?\s*(.+)", line)
+                if college_match:
+                    current_college_code = college_match.group(1).strip()
+                    current_college = college_match.group(2).strip()
+                    print(f"\n🏫 Detected College: {current_college} | Code: {current_college_code}")
                     continue
 
-                if is_course_line(line):
-                    branch = line.split(" - ", 1)[1].strip()
-                    print(f"📘 Detected Branch: {branch}")
+
+            # Now match each course to one table in sequence
+            for block in course_blocks:
+                if not tables:
+                    print(f"⚠️ No table found for course {block['branch']} on page {page_num}")
                     continue
 
-                if "Stage-I" in line or "Stage-II" in line:
-                    stage_marker = line
-                    print(f"🧭 Stage Marker: {stage_marker}")
+                table = tables.popleft()
+                if not table or len(table) < 2:
                     continue
 
-                if CATEGORY_LINE_PATTERN.match(line) and not all(word.isdigit() for word in line.split()):
-                    current_category_line = line
-                    print(f"📋 Category Line Detected: {current_category_line}")
-                    continue
+                # Build merged header
+                raw_header_1 = table[0]
+                raw_header_2 = table[1] if len(table) > 1 else None
 
-                if RANK_LINE_PATTERN.match(line):
-                    rank_line = list(map(int, line.split()))
-                    print(f"📈 Rank Line: {rank_line}")
-                    continue
+                if raw_header_2:
+                    while len(raw_header_2) < len(raw_header_1):
+                        raw_header_2.append("")
 
-                percent_matches = PERCENT_PATTERN.findall(line)
-                if percent_matches and rank_line:
-                    
-                    # if "Stage-II" in stage_marker:
-                    #     print("⏩ Skipping Stage-II block")
-                    #     rank_line = None
-                    #     continue
+                    merged_header = []
+                    for c1, c2 in zip(raw_header_1, raw_header_2):
+                        merged = f"{str(c1 or '').strip()}{str(c2 or '').strip()}"
+                        merged_header.append(merged)
+                else:
+                    merged_header = raw_header_1
 
-                    percents = list(map(float, percent_matches))
-                    categories = current_category_line.split()
+                # Extract categories
+                categories = [
+                    re.sub(r'\s+', '', cell.strip().upper())
+                    for cell in merged_header[1:]  # Skip first 'Stage' col
+                    if cell and re.search(r'[A-Z]', str(cell))
+                ]
 
-                    print(f"🔎 Current Category Line: {current_category_line}")
-                    print(f"🧠 Parsed Categories: {categories}")
-                    print(f"📊 Parsed Percents: {percents}")
-                    print(f"🔢 Count -> Categories: {len(categories)}, Ranks: {len(rank_line)}, Percents: {len(percents)}")
+                print(f"📋 Page {page_num} | Categories: {categories} | Branch: {block['branch']}")
 
-                    for i, cat in enumerate(categories):
-                        rank = rank_line[i] if i < len(rank_line) else None
-                        percent = percents[i] if i < len(percents) else None
+                for row in table[1:]:
+                    if not row or not row[0]:
+                        continue
+
+                    stage_marker = row[0].strip()
+                    values = row[1:]
+
+                    for i, val in enumerate(values):
+                        if i >= len(categories):
+                            continue
+                        cat = categories[i]
+                        if not val:
+                            continue
+
+                        val_clean = val.strip().replace('\n', ' ')
+                        match = re.match(r"(\d+)\s*\(?([\d.]+)\)?", val_clean)
+                        if not match:
+                            continue
+
+                        rank = int(match.group(1))
+                        percent = float(match.group(2))
 
                         gender = "female" if "L" in cat else "male"
                         level = (
@@ -109,39 +116,48 @@ def extract_cutoffs_from_pdf(file_path: str, db: Session):
                             else "home"
                         )
 
-                        if college and branch:
-                            cutoff = Cutoff(
-                            college=college,
-                            branch=branch,
+                        # 1. Look up the College object using the code
+                        college_obj = db.query(College).filter_by(
+                            code=block['college_code'],
+                            name=block['college']  # only if you're certain name is available
+                        ).first()
+
+                        if not college_obj:
+                            print(f"❌ College not found in DB: {block['college']} ({block['college_code']})")
+                            continue
+
+                        # 2. Create Cutoff with the foreign key reference
+                        cutoff = Cutoff(
+                            college_id=college_obj.id,  # ✅ Assign FK ID here
+                            college_code=block['college_code'],  # ✅ still useful for easier querying
+                            branch=block['branch'],
+                            course_code=block['course_code'],
                             category=cat,
                             rank=rank,
                             percent=percent,
                             gender=gender,
                             level=level,
-                            stage=stage_marker.strip(),         
-                            year=datetime.now().year-1              
+                            stage=stage_marker,
+                            year=datetime.now().year - 1
                         )
-                            db.add(cutoff)
-                            print(f"✅ Page {page_num}: Added -> {cat} | Rank: {rank} | Percent: {percent}")
-                        else:
-                            print(f"⚠️ Skipped due to missing college/branch for {cat}")
+                        db.add(cutoff)
 
-                    rank_line = None  # Reset
+                        record_count += 1
+                        print(f"✅ Page {page_num}: {stage_marker} | {cat} | Rank: {rank} | %: {percent}")
 
-        print("🔍 Final Record Count Before Commit:", len(db.new))
+        print(f"\n🔍 Final Record Count Before Commit: {record_count}")
         db.commit()
-        print(f"📦 Committed to DB at: {engine.url}")
-        print("✅ All cutoffs have been processed and saved.")
+        print("✅ All cutoffs saved.")
 
 def extract_college_details(line):
-    # Extract only code and name (without status)
-    # Example: "1150 - Swavalambi Shikshan Sanstha's Sushganga Polytechnic, Wani"
-    match = re.match(r"(\d+)\s*-\s*(.+)", line)
+    # Match exactly 5-digit college code followed by a hyphen and name
+    match = re.match(r"^(\d{5})\s*-\s*(.+)", line)
     if match:
         code = match.group(1).strip()
         name = match.group(2).strip()
         return code, name
     return None, None
+
 
 def load_college_data(pdf_lines, db: Session):
     colleges_to_add = []
@@ -150,40 +166,54 @@ def load_college_data(pdf_lines, db: Session):
 
     i = 0
     while i < len(pdf_lines) - 2:
-        code, name = extract_college_details(pdf_lines[i].strip())
+        line = pdf_lines[i].strip()
+        code, name = extract_college_details(line)
+
         if code and name:
-            # Skip college names with undesired keywords
+            # Skip undesired college types
             if any(keyword.lower() in name.lower() for keyword in SKIP_KEYWORDS):
                 print(f"⛔ Skipped (Invalid Type): [{code}] {name}")
                 i += 1
                 continue
 
+            # Now safe to access i + 2
             status_line = pdf_lines[i + 2].strip()
             status_match = re.match(r"Status\s*:\s*(.+)", status_line, re.IGNORECASE)
             if status_match:
-                status = status_match.group(1).strip()
-                college_key = (code, name, status)
-                if college_key not in seen_colleges:
-                    colleges_to_add.append((code, name, status))
-                    seen_colleges.add(college_key)
-                    print(f"➕ Added College: [{code}] {name} ({status})")
+                full_status = status_match.group(1).strip()
+
+                # Split into status and university
+                if ' : ' in full_status:
+                    status, university = full_status.split(' : ', 1)
                 else:
-                    print(f"⏩ Skipped Duplicate: [{code}] {name} ({status})")
+                    status = full_status
+                    university = None
+
+                college_key = (code, name, status, university)
+                if college_key not in seen_colleges:
+                    colleges_to_add.append((code, name, status, university))
+                    seen_colleges.add(college_key)
+                    print(f"➕ Added College: [{code}] {name} ({status}) → {university}")
+                else:
+                    print(f"⏩ Skipped Duplicate: [{code}] {name} ({status}) → {university}")
+
                 i += 3
-                continue
+                continue  # move to next block
+
+        # move to next line if code/name not found
         i += 1
 
     # Preview all collected colleges
     print("\n📋 Collected Colleges:")
-    for idx, (code, name, status) in enumerate(colleges_to_add, 1):
-        print(f"{idx}. [{code}] {name} ({status})")
+    for idx, (code, name, status, university) in enumerate(colleges_to_add, 1):
+        print(f"{idx}. [{code}] {name} ({status}) → {university}")
 
     # Ask for confirmation
     confirm = input("\n✅ Commit this data to the database? (yes/no): ").strip().lower()
     if confirm in ('yes', 'y'):
         try:
-            for code, name, status in colleges_to_add:
-                college = College(code=code, name=name, status=status)
+            for code, name, status, university in colleges_to_add:
+                college = College(code=code, name=name, status=status, university=university)
                 db.add(college)
             db.commit()
             print("🎉 Data committed successfully.")
